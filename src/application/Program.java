@@ -1,13 +1,13 @@
-package Application;
+package application;
 
 import javax.swing.JOptionPane;
 
-import Entities.Calculadora;
+import entities.Calculadora;
 
 public class Program {
 
 	public static void main(String[] args) {
-
+		
 		String resultado = JOptionPane.showInputDialog("Digite um número:");
 		double resultadoFormatado = Double.parseDouble(resultado);
 

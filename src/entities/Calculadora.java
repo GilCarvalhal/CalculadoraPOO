@@ -1,4 +1,4 @@
-package Entities;
+package entities;
 
 public class Calculadora {
 	private Double resultado = 0.0;
